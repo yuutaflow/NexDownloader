@@ -108,10 +108,41 @@ button.download-btn {
 button.download-btn:hover {
   background: #00cc66;
 }
+
 video {
   width: 100%;
   max-width: 100%;
   height: auto;
   border-radius: 12px;
   margin-top: 1rem;
+}
+
+#ticket, #historico {
+  width: 100%;
+  max-width: 400px;
+  background: #111;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#ticket h2, #historico h2 {
+  font-size: 1.1rem;
+  color: #00ff88;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#historico-lista {
+  list-style: none;
+  padding-left: 0;
+}
+
+#historico-lista li {
+  background: #1d1d1d;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
 }
